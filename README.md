@@ -175,14 +175,14 @@ class CustomerA(Teller1,Bank):
 
     def WithdrawMoney(self,amount):
         self.balance-=amount
-        print("%d is your balance"%self.balance)
-        '''if self.balance<2000:
+        
+        if self.balance<2000:
             print("Insufficicient funds on your account")
             print("you were assisted by %s"%Teller1A.Name)
 
         else:
             print("%d is your balance"%(self.balance))
-        print("you were assisted by %s"%Teller1A.Name)'''
+        print("you were assisted by %s"%Teller1A.Name)
 
 
     def openAccount(self):
